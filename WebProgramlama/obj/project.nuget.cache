@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aM6FKvpk/WHV7bQLsfBrK0MIw38SqR8HE0ZHuVJf70Fa+23/Buh7sHX0JdugAPH0hR5IwotoIpTyXFWrO/j3TQ==",
+  "dgSpecHash": "BWpmcKZhB6ZBoDkmt1CzRvfQpK1l7u4i2IbntNNjpktI058OIGsGVPF0aE3tQtc4FEYiKyQbQZBa6qvj4lxxxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.4.1\\azure.core.1.4.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.2.3\\azure.identity.1.2.3.nupkg.sha512",

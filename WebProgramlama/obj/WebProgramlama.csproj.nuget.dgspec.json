@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
         "projectName": "WebProgramlama",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\WebProgramlama\\WebProgramlama\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
