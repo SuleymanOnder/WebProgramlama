@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.12" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.12" NoWarn="NU1605" />
@@ -26,17 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Admin\Views\Role\" />
-    <Folder Include="Areas\Admin\Views\ProductTypes\" />
-    <Folder Include="Areas\Admin\Views\Product\" />
-    <Folder Include="Areas\Customer\Controllers\" />
-    <Folder Include="Areas\Customer\Views\Home\" />
-    <Folder Include="Areas\Customer\Views\User\" />
-    <Folder Include="Areas\Customer\Views\Order\" />
-    <Folder Include="Areas\Identity\Pages\Account\Manage\" />
-    <Folder Include="Utility\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

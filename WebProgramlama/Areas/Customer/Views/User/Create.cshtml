@@ -1,0 +1,184 @@
+﻿
+
+@model WebProgramlama.Models.ApplicationUser
+@{ ViewData["Title"] = "Create"; }
+
+<br />
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login V3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="~/Login_v3/vendor/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Login_v3/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Login_v3/fonts/iconic/css/material-design-iconic-font.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Login_v3/vendor/animate/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Login_v3/vendor/css-hamburgers/hamburgers.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Login_v3/vendor/animsition/css/animsition.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Login_v3/vendor/select2/select2.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Login_v3/vendor/daterangepicker/daterangepicker.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Login_v3/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Login_v3/css/main.css">
+
+</head>
+<div class="row">
+    <div class="limiter">
+        <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+            <div class="wrap-login100">
+
+                <span class="login100-form-logo">
+                    <i class="zmdi zmdi-landscape"></i>
+
+                </span>
+                <span class="login100-form-title">
+                    Register
+                </span>
+
+                <form asp-action="Create" method="post" id="user-form" enctype="multipart/form-data">
+                    <div>
+                        <div asp-validation-summary="ModelOnly" class="text-danger">
+
+                        </div>
+                        <h3>@ViewBag.message</h3>
+                        <div class="form-group">
+                            <label asp-for="UserName" class="text-white"></label>
+                            <input asp-for="UserName" class="form-control text-dark btn-outline-light" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="PasswordHash" class="text-white"></label>
+                            <input asp-for="PasswordHash" class="form-control text-dark btn-outline-light" />
+                            <span asp-validation-for="PasswordHash" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FirstName" class="text-white"></label>
+                            <input asp-for="FirstName" class="form-control text-dark btn-outline-light" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="LastName" class="text-white"></label>
+                            <input asp-for="LastName" class="form-control text-dark btn-outline-light" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-info text-white" value="Save" />
+                            <a asp-action="Index" class="btn btn-info">Back to List</a>
+                        </div>
+                    </div>
+                </form>
+
+                @section Scripts{
+                    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+                    <script>$(document).ready(function () {
+                            $("#user-form").validate({
+                                rules: {
+                                    UserName: {
+                                        required: true,
+                                    },
+                                    PasswordHash: {
+                                        required: true,
+                                    }
+                                },
+                                messages: {
+                                    UserName: "Enter your email",
+                                    PasswordHash: "Enter your password"
+                                }
+
+                            });
+                        });</script>
+                }
+
+
+
+                @*
+                    <h2 class="text-info">Add New User</h2>
+                    <form asp-action="Create" method="post" id="user-form" enctype="multipart/form-data">
+                        <div class="p-4 ">
+                            <div asp-validation-summary="ModelOnly" class="text-danger">
+
+                            </div>
+                            <h3>@ViewBag.message</h3>
+                            <div class="form-group row">
+                                <div class="col-2">
+                                    <label asp-for="UserName" class="text-white"></label>
+                                </div>
+                                <div class="col-5">
+                                    <input asp-for="UserName" class="form-control btn btn-outline-light" />
+                                </div>
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-2">
+                                    <label asp-for="PasswordHash" class="text-white"></label>
+                                </div>
+                                <div class="col-5">
+                                    <input asp-for="PasswordHash" class="form-control  btn btn-outline-light" type="password" />
+                                </div>
+                                <span asp-validation-for="PasswordHash" class="text-danger"></span>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-2">
+                                    <label asp-for="FirstName" class="text-white"></label>
+                                </div>
+                                <div class="col-5">
+                                    <input asp-for="FirstName" class="form-control  btn btn-outline-light" />
+                                </div>
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-2">
+                                    <label asp-for="LastName" class="text-white"></label>
+                                </div>
+                                <div class="col-5">
+                                    <input asp-for="LastName" class="form-control  btn btn-outline-light" />
+                                </div>
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-info text-white" value="Save" />
+                                <a asp-action="Index" class="btn btn-info">Back to List</a>
+                            </div>
+                        </div>
+                    </form>
+
+                    @section Scripts{
+                        @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+                        <script>
+                            $(document).ready(function () {
+                                $("#user-form").validate({
+                                    rules: {
+                                        UserName: {
+                                            required: true,
+                                        },
+                                        PasswordHash: {
+                                            required: true,
+                                        }
+                                    },
+                                    messages: {
+                                        UserName: "Enter your email",
+                                        PasswordHash: "Enter your password"
+                                    }
+
+                                });
+                            });</script>
+                    }
+
+                *@

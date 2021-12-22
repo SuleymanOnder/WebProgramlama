@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VI7EpoQhQZkedoxUSSXvbvYQTJ7OMJhXWrSaw9iYqWwDQ1lmIH2PCdyRv8wsLNc1gXr0B8RGF9RThM/cDy3yPA==",
+  "dgSpecHash": "z6XTHMiC3svU2P4/kck6lLaQdAbtJnRMS8YuAgWuMSfev1GtnZ+JgDAEsbdzSUopQ1+kHD+Tvkokqk0suhipow==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.13\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.13.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.13\\microsoft.aspnetcore.identity.ui.5.0.13.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\2.2.0\\microsoft.aspnetcore.jsonpatch.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
