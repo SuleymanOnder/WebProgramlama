@@ -11,7 +11,7 @@ using WebProgramlama.Models;
 using WebProgramlama.Utility;
 using X.PagedList;
 
-namespace WebProgramlama.Controllers
+namespace WebProgramlama.Areas.Customer.Controllers
 {
     [Area("Customer")]
     [Authorize]
