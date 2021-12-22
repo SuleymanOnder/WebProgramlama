@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj": {}
+    "C:\\projem\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj": {
+    "C:\\projem\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
+        "projectUniqueName": "C:\\projem\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
         "projectName": "WebProgramlama",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\WebProgramlama\\WebProgramlama\\obj\\",
+        "projectPath": "C:\\projem\\WebProgramlama\\WebProgramlama\\WebProgramlama.csproj",
+        "packagesPath": "C:\\Users\\onura\\.nuget\\packages\\",
+        "outputPath": "C:\\projem\\WebProgramlama\\WebProgramlama\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\onura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -25,8 +30,7 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net50": {
             "projectReferences": {}
           }
         },
@@ -37,8 +41,7 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net50": {
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -105,25 +108,12 @@
               "version": "[8.0.7, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400-preview-015203\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
         }
       }
     }
