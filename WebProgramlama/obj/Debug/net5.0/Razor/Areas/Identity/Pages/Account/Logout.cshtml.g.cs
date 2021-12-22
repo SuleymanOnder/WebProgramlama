@@ -13,15 +13,15 @@ namespace WebProgramlama.Areas.Identity.Pages.Account
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 2 "C:\Users\Admin\Documents\GitHub\WebProgramlama\WebProgramlama\Areas\Identity\Pages\_ViewImports.cshtml"
-using WebProgramlama.Areas.Identity;
+#line 1 "C:\Users\Admin\Documents\GitHub\WebProgramlama\WebProgramlama\Areas\Identity\Pages\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Admin\Documents\GitHub\WebProgramlama\WebProgramlama\Areas\Identity\Pages\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
+#line 2 "C:\Users\Admin\Documents\GitHub\WebProgramlama\WebProgramlama\Areas\Identity\Pages\_ViewImports.cshtml"
+using WebProgramlama.Areas.Identity;
 
 #line default
 #line hidden
@@ -34,7 +34,7 @@ using WebProgramlama.Areas.Identity.Pages.Account;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"acf321d273a4b4dd8650c17231b06987dc03df69", @"/Areas/Identity/Pages/Account/Logout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"03f4f3599bcd1df473a27182ecab7a8d72e916fe", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7249087c0b2fb77089256a1bcabf46f3f304c3c9", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7a6dd3d64caf294838802af2f1d3ab7e3cf4333e", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     public class Areas_Identity_Pages_Account_Logout : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {

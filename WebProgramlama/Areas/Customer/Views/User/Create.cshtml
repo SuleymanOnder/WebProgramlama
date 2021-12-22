@@ -85,7 +85,8 @@
                 @section Scripts{
                     @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 
-                    <script>$(document).ready(function () {
+                    <script>
+                        $(document).ready(function () {
                             $("#user-form").validate({
                                 rules: {
                                     UserName: {
@@ -182,3 +183,9 @@
                     }
 
                 *@
+            </div>
+        </div>
+    </div>
+</div>
+</html>
+

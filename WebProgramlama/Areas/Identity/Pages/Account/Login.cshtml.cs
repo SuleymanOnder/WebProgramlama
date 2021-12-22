@@ -14,6 +14,7 @@ using Microsoft.Extensions.Logging;
 using WebProgramlama.Data;
 using WebProgramlama.Models;
 using Microsoft.AspNetCore.Http;
+using WebProgramlama.Models;
 
 namespace WebProgramlama.Areas.Identity.Pages.Account
 {
